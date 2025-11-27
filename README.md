@@ -1,4 +1,4 @@
-# Medical Transportation Optimization — Capstone Project
+# Medical Transportation Optimization - Capstone Project
 ### Authors: Esther Cusnir, Cage LeBlanc, Diego Jimenez
 This capstone project, conducted with the CareMax transportation department, focuses on optimizing **non-emergency patient transportation routing and timeliness compliance**.  
 Using R in Jupyter, we created two analytical notebooks that process trip logs from **October–December 2023** to evaluate operational constraints and routing inefficiencies.
@@ -72,6 +72,7 @@ install.packages(c("ggplot2","scales"))
 library(ggplot2)
 library(scales)
 df <- read.csv("all_data1.csv")
+
 
 
 
