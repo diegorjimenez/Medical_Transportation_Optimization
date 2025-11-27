@@ -1,0 +1,23 @@
+# ----- R local environment and cache -----
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# ----- Plot outputs (generated locally) -----
+*.png
+*.jpeg
+*.jpg
+
+# ----- Data files: exclude full dataset, use sample only if sharing -----
+decemberdata.csv
+datasets/*.csv
+data/*.csv
+*.rds
+
+# ----- System files -----
+.DS_Store
+Thumbs.db
+
+# ----- Log files -----
+*.log
