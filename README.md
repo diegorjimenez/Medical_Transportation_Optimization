@@ -71,7 +71,6 @@ For any questions or improvement ideas, please refer to the notebook logic or co
 install.packages(c("ggplot2","scales"))
 library(ggplot2)
 library(scales)
-df <- read.csv("all_data1.csv")
 
 
 
