@@ -5,7 +5,7 @@ Using R in Jupyter, we created two analytical notebooks that process trip logs f
 
 ---
 
-## 📓 Notebook Summaries
+## Notebook Summaries
 
 ### **1. Pickup Timing Analysis (`Pickup_Time.ipynb`)**
 - Calculates how early each patient was picked up before their scheduled appointment.
@@ -23,7 +23,7 @@ Using R in Jupyter, we created two analytical notebooks that process trip logs f
 
 ---
 
-## 📊 Overall Project Findings (from report)
+## Overall Project Findings (from report)
 - **24.14% of trips** were scheduled with pickup times **>1 hour before appointment**, violating CareMax’s constraint.  
 - **15.65% of trips** exceeded the **1-hour in-vehicle limit**.
 - Routing and scheduling were highly **manual and non-filtered across regions**, causing optimization challenges.
@@ -31,7 +31,7 @@ Using R in Jupyter, we created two analytical notebooks that process trip logs f
 
 ---
 
-## ✅ Key Recommendations Supported by Notebooks
+## Key Recommendations Supported by Notebooks
 - Implement **zip-group routing and vehicle grouping** to filter regions.
 - Adopt **batch scheduling with violation parameters** to automatically enforce timing constraints.
 - Train dispatch staff to use new features effectively.
@@ -39,7 +39,7 @@ Using R in Jupyter, we created two analytical notebooks that process trip logs f
 
 ---
 
-## 🎯 Project Goal Achievements
+## Project Goal Achievements
 - Identified major bottlenecks in **routing filters**, **pickup timing compliance**, and **labor-heavy scheduling**.
 - Validated conclusions using **real trip logs**, properly sectioned for reproducibility in R + Jupyter.
 - Created interval-based visualizations to highlight **pickup drift and cumulative timing inefficiencies**.
@@ -47,7 +47,7 @@ Using R in Jupyter, we created two analytical notebooks that process trip logs f
 
 ---
 
-## 📍 Final Conclusion
+## Final Conclusion
 
 CareMax’s current routing system suffers from **lack of regional filtering, late optimization, and excessive early pickups** that violate appointment timing constraints.  
 Through local R analysis, we demonstrated that **nearly 1 in 4 pickups occur too early, and 1 in 6 trips are too long**, creating measurable noncompliance that impacts patient satisfaction.
